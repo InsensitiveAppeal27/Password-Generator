@@ -1,13 +1,20 @@
 body {
     margin: 0;
-    background-color: #1F2937;
+    background-color: #171f29;
     height: 100vh;
     width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .main{
-    padding: 60px 12%;
-    max-width: 80%;
+    padding: 40px 60px;
+    max-width: 100%;
+    background-color:#1F2937;
     min-width: 20%;
+    /* border: 1px solid #cccdcf; */
+    border-radius: 5px;
 }
 h1{
     color: white;
@@ -19,7 +26,7 @@ h1{
 }
 p{
     color: white;
-    font-size: 20px;
+    font-size:18px;
 }
 button{
     color: white;
@@ -31,6 +38,9 @@ button{
     margin-top:4vh;
     margin-bottom: 5vh;
     cursor: pointer;
+}
+button:hover{
+    background-color: #0ea170;
 }
 .pass{
     display: flex;
@@ -49,4 +59,17 @@ button{
     justify-content: center;
     align-items: center;
     margin-top: 5vh;
+    cursor: pointer;
+}
+.pass div:hover{
+    color: #9effc2;
+    background-color:#28364b;
+}
+hr{
+    /* font-size: 1px; */
+    height: 1px;
+    /* width: 98%; */
+    background-color: transparent;
+    border: 3px dotted rgba(255, 255, 255, 0.388);
+    opacity: 0.5;
 }
