@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background-color: #1F2937;
+    height: 100vh;
+    width: 100%;
+}
+.main{
+    padding: 60px 12%;
+    max-width: 80%;
+    min-width: 20%;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    line-height: 0.4;
+}
+.ran{
+    color: #10B981;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+button{
+    color: white;
+    border: none;
+    width: 191px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #10B981;
+    margin-top:4vh;
+    margin-bottom: 5vh;
+    cursor: pointer;
+}
+.pass{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 15px;
+}
+.pass div{
+    width: 211px;
+    height: 39px;
+    border-radius: 5px;
+    background-color: #273549;
+    color: #55F991;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
